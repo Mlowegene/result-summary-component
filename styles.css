@@ -7,31 +7,30 @@
 
 body{
     font-family: 'Hanken Grotesk', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
     font-size: 18px;
+}
+
+.card-container {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
 }
 
 .card {
     width: 35rem;
     height: 25rem;
-    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* box-shadow: 0 2px 5px hsl(234, 85%, 45%); */
-    box-shadow:  3px 5px 10px #564487;
-}
-
-.secton {
-    
+    border-radius: 25px;
+    box-shadow:  3px 2px 30px 1px hsl(241, 100%, 89%);
 }
 
 .section-one {
     width: 17.5rem;
     height: 25rem;
-    background-color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 72%, 57%);
     border-radius: 25px;
 }
 
@@ -43,24 +42,31 @@ body{
 }
 
 .display {
-    width: 300px;
-    height: auto;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
 .content {
     width: 140px;
     height: 140px;
-    /* border: 1px solid red; */
     border-radius: 50%;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid red;
+    background: linear-gradient(180deg, hsla(256, 72%, 46%, 1) 0%, hsl(234, 72%, 57%) 100%);
 }
 
 .large-number {
     color: hsl(0, 0%, 100%);
     font-size: 3.5rem;
     font-weight: 800;
+    
+}
+
+.small-number {
+    color: hsl(241, 100%, 89%);
+    font-size: 12px;
+    display: block;
 }
 
 .great-color {
@@ -80,5 +86,52 @@ body{
 .section-two {
     width: 17.5rem;
     height: 25rem;
-    border: 1px solid red;
+    padding: 0 30px;
 }
+
+.summary-title {
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.result-description {
+    width: 15rem;
+    height: 2.4rem;
+    border-radius: 5px;
+    
+}
+
+.reaction {
+    margin-bottom: 1.5rem;
+    background-color: hsl(0, 100%, 67%);
+    color: hsl(0, 100%, 67%);
+}
+
+.memory-reaction {
+    margin-bottom: 1.5rem;
+    background-color: hsl(39, 100%, 56%);
+    color: hsla(39, 100%, 56%, 0.714);
+}
+
+.verbal-reaction {
+    margin-bottom: 1.5rem;
+    background-color: hsl(166, 100%, 37%);
+    color: hsl(166, 100%, 37%);
+}
+
+.visual-reaction {
+    margin-bottom: 1.5rem;
+    background-color: hsla(256, 72%, 46%, 1);
+    color: hsl(234, 85%, 45%);
+}
+
+button {
+    width: 15rem;
+    height: 2.7rem;
+    background-color: black;
+    border-radius: 40px;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    font-weight: 700;
+}
+
