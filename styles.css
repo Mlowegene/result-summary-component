@@ -50,9 +50,8 @@ body{
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
-    border: 1px solid red;
     background: linear-gradient(180deg, hsla(256, 72%, 46%, 1) 0%, hsl(234, 72%, 57%) 100%);
 }
 
@@ -80,7 +79,7 @@ body{
     text-align: center;
     font-size: .9rem;
     color: hsl(241, 100%, 89%);
-    margin: 0 2.5rem 0 2.5rem;
+    margin: 0 2rem 0 2rem;
 }
 
 .section-two {
@@ -103,26 +102,60 @@ body{
 
 .reaction {
     margin-bottom: 1.5rem;
-    background-color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, .1);
+    border: 1px solid hsl(0, 100%, 67%);
     color: hsl(0, 100%, 67%);
+    position: relative;
 }
 
+.result-description img {
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+.result-description span {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.title {
+    position: absolute;
+    top: 19%;
+    left: 12%;
+}
+
+.value {
+    position: absolute;
+    top: 19%;
+    right: 8%;
+}
+
+
 .memory-reaction {
+    position: relative;
     margin-bottom: 1.5rem;
-    background-color: hsl(39, 100%, 56%);
+    border: 1px solid hsl(39, 100%, 56%);
     color: hsla(39, 100%, 56%, 0.714);
+    background-color: hsla(39, 100%, 56%, .1);
 }
 
 .verbal-reaction {
+    position: relative;
     margin-bottom: 1.5rem;
-    background-color: hsl(166, 100%, 37%);
+    border: 1px solid hsl(166, 100%, 37%);
     color: hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37%, .1);
 }
 
 .visual-reaction {
+    position: relative;
     margin-bottom: 1.5rem;
-    background-color: hsla(256, 72%, 46%, 1);
+    border: 1px solid hsla(256, 72%, 46%, 1);
     color: hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%, .1);
+    ;
 }
 
 button {
