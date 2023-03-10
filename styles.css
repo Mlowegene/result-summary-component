@@ -113,7 +113,7 @@ body{
     margin-left: 5px;
 }
 
-.result-description span {
+.result-description p {
     margin-bottom: 10px;
     margin-left: 5px;
     font-size: 1rem;
@@ -127,11 +127,19 @@ body{
 }
 
 .value {
+    
     position: absolute;
     top: 19%;
     right: 8%;
 }
 
+.number-color {
+    color: hsl(224, 30%, 27%);
+}
+
+.default-color {
+    color: hsl(241, 100%, 89%);
+}
 
 .memory-reaction {
     position: relative;
@@ -161,7 +169,7 @@ body{
 button {
     width: 15rem;
     height: 2.7rem;
-    background-color: black;
+    background-color: hsl(224, 30%, 27%);
     border-radius: 40px;
     color: hsl(0, 0%, 100%);
     font-size: 15px;
