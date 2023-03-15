@@ -175,3 +175,8 @@ button {
     font-weight: 700;
 }
 
+button:hover{
+    background-color: hsl(234, 72%, 57%);
+    border: none;
+}
+
