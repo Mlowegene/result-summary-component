@@ -27,17 +27,16 @@ Users should be able to:
 
 Desktop Design
 
-![](./desktop.png)
+![](./results-summary-component-main/desktop.png)
 
 Mobile Design 
 
-![](./mobile.png)
+![](./results-summary-component-main/mobile.png)
 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [mlowegene-result-summary-component](https://github.com/Mlowegene/result-summary-component)
 
 ## My process
@@ -52,9 +51,9 @@ Mobile Design
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+
+- Frontend Mentor - [@Mlowegene](https://www.frontendmentor.io/profile/Mlowegene)
+- Twitter - [@genemlowe](https://www.twitter.com/genemlowe)
 
 
 
