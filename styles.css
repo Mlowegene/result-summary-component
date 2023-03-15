@@ -1,237 +1,236 @@
-@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    width: 100%;
-    height: 100vh;
-    font-family: 'Hanken Grotesk', sans-serif;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Hanken Grotesk", sans-serif;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
 }
 
 .card {
-    width: 35rem;
-    height: 25rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 25px;
-    box-shadow:  3px 2px 30px 1px hsl(241, 100%, 89%);
+  width: 35rem;
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  box-shadow: 3px 2px 30px 1px hsl(241, 100%, 89%);
 }
 
 .section-one {
-    width: 17.5rem;
-    height: 25rem;
-    background-color: hsl(234, 72%, 57%);
-    border-radius: 25px;
+  width: 17.5rem;
+  height: 25rem;
+  background-color: hsl(234, 72%, 57%);
+  border-radius: 25px;
 }
 
 .result-title {
-    text-align: center;
-    color: hsl(241, 100%, 89%);
-    margin: 1.5rem 0 1.5rem 0;
-    font-size: 1.3rem;
+  text-align: center;
+  color: hsl(241, 100%, 89%);
+  margin: 1.5rem 0 1.5rem 0;
+  font-size: 1.3rem;
 }
 
 .display {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .content {
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    padding: 10px;
-    text-align: center;
-    background: linear-gradient(180deg, hsla(256, 72%, 46%, 1) 0%, hsl(234, 72%, 57%) 100%);
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+  background: linear-gradient(
+    180deg,
+    hsla(256, 72%, 46%, 1) 0%,
+    hsl(234, 72%, 57%) 100%
+  );
 }
 
 .large-number {
-    color: hsl(0, 0%, 100%);
-    font-size: 3.5rem;
-    font-weight: 800;
-    
+  color: hsl(0, 0%, 100%);
+  font-size: 3.5rem;
+  font-weight: 800;
 }
 
 .small-number {
-    color: hsl(241, 100%, 89%);
-    font-size: 12px;
-    display: block;
+  color: hsl(241, 100%, 89%);
+  font-size: 12px;
+  display: block;
 }
 
 .great-color {
-    text-align: center;
-    color: hsl(0, 0%, 100%);
-    margin: 1.5rem 0 1.5rem 0;
-    font-size: 1.7rem;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  margin: 1.5rem 0 1.5rem 0;
+  font-size: 1.7rem;
 }
 
 .description {
-    text-align: center;
-    font-size: .9rem;
-    color: hsl(241, 100%, 89%);
-    margin: 0 2rem 0 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: hsl(241, 100%, 89%);
+  margin: 0 2rem 0 2rem;
 }
 
 .section-two {
-    width: 17.5rem;
-    height: 25rem;
-    padding: 0 30px;
+  width: 17.5rem;
+  height: 25rem;
+  padding: 0 30px;
 }
 
 .summary-title {
-    font-size: 1.5rem;
-    margin: 1.5rem 0;
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
 }
 
 .result-description {
-    width: 15rem;
-    height: 2.4rem;
-    border-radius: 5px;
-    
+  width: 15rem;
+  height: 2.4rem;
+  border-radius: 5px;
 }
 
 .reaction {
-    margin-bottom: 1.5rem;
-    background-color: hsla(0, 100%, 67%, .1);
-    border: 1px solid hsl(0, 100%, 67%);
-    color: hsl(0, 100%, 67%);
-    position: relative;
+  margin-bottom: 1.5rem;
+  background-color: hsla(0, 100%, 67%, 0.1);
+  border: 1px solid hsl(0, 100%, 67%);
+  color: hsl(0, 100%, 67%);
+  position: relative;
 }
 
 .result-description img {
-    margin-top: 8px;
-    margin-left: 5px;
+  margin-top: 8px;
+  margin-left: 5px;
 }
 
 .result-description p {
-    margin-bottom: 10px;
-    margin-left: 5px;
-    font-size: 1rem;
-    font-weight: 700;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 .title {
-    position: absolute;
-    top: 19%;
-    left: 12%;
+  position: absolute;
+  top: 19%;
+  left: 12%;
 }
 
 .value {
-    
-    position: absolute;
-    top: 19%;
-    right: 8%;
+  position: absolute;
+  top: 19%;
+  right: 8%;
 }
 
 .number-color {
-    color: hsl(224, 30%, 27%);
+  color: hsl(224, 30%, 27%);
 }
 
 .default-color {
-    color: hsl(241, 100%, 89%);
+  color: hsl(241, 100%, 89%);
 }
 
 .memory {
-    position: relative;
-    margin-bottom: 1.5rem;
-    border: 1px solid hsl(39, 100%, 56%);
-    color: hsla(39, 100%, 56%, 0.714);
-    background-color: hsla(39, 100%, 56%, .1);
+  position: relative;
+  margin-bottom: 1.5rem;
+  border: 1px solid hsl(39, 100%, 56%);
+  color: hsla(39, 100%, 56%, 0.714);
+  background-color: hsla(39, 100%, 56%, 0.1);
 }
 
 .verbal {
-    position: relative;
-    margin-bottom: 1.5rem;
-    border: 1px solid hsl(166, 100%, 37%);
-    color: hsl(166, 100%, 37%);
-    background-color: hsla(166, 100%, 37%, .1);
+  position: relative;
+  margin-bottom: 1.5rem;
+  border: 1px solid hsl(166, 100%, 37%);
+  color: hsl(166, 100%, 37%);
+  background-color: hsla(166, 100%, 37%, 0.1);
 }
 
 .visual {
-    position: relative;
-    margin-bottom: 1.5rem;
-    border: 1px solid hsla(256, 72%, 46%, 1);
-    color: hsl(234, 85%, 45%);
-    background-color: hsla(234, 85%, 45%, .1);
-    ;
+  position: relative;
+  margin-bottom: 1.5rem;
+  border: 1px solid hsla(256, 72%, 46%, 1);
+  color: hsl(234, 85%, 45%);
+  background-color: hsla(234, 85%, 45%, 0.1);
 }
 
 button {
-    width: 15rem;
-    height: 2.7rem;
-    background-color: hsl(224, 30%, 27%);
-    border-radius: 40px;
-    color: hsl(0, 0%, 100%);
-    font-size: 15px;
-    font-weight: 700;
+  width: 15rem;
+  height: 2.7rem;
+  background-color: hsl(224, 30%, 27%);
+  border-radius: 40px;
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  font-weight: 700;
 }
 
-button:hover{
-    background-color: hsl(234, 72%, 57%);
-    border: none;
+button:hover {
+  background-color: hsl(234, 72%, 57%);
+  border: none;
+  cursor: pointer;
 }
-
 
 @media screen and (max-width: 375px) {
-    body {
-      font-size: 16px;
-    }
-    .card {
-      width: 90%;
-      height: auto;
-      flex-direction: column;
-      border-radius: 0;
-    }
-    .section-one,
-    .section-two {
-      width: 100%;
-      height: auto;
-      border-radius: 0px 0px 15px 15px;
-    }
-    .display {
-      flex-direction: column;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .content {
-      width: 120px;
-      height: 120px;
-    }
-    .large-number {
-      font-size: 3rem;
-    }
-    .small-number {
-      font-size: 10px;
-    }
-    .great-color {
-      font-size: 1.5rem;
-      margin: .5rem 0 .5rem 0;
-    }
-    .description {
-      font-size: 0.8rem;
-      margin: .8rem 2.2rem;
-    }
-    .summary-title {
-      font-size: 1.2rem;
-    }
-    .result-description {
-      width: 100%;
-      height: 2.2rem;
-      font-size: 0.8rem;
-      margin-bottom: 10px;
-    }
-    button {
-      margin-bottom: 20px;
-    }
+  body {
+    font-size: 16px;
   }
-  
+  .card {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    border-radius: 0;
+  }
+  .section-one,
+  .section-two {
+    width: 100%;
+    height: auto;
+    border-radius: 0px 0px 15px 15px;
+  }
+  .display {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .content {
+    width: 120px;
+    height: 120px;
+  }
+  .large-number {
+    font-size: 3rem;
+  }
+  .small-number {
+    font-size: 10px;
+  }
+  .great-color {
+    font-size: 1.5rem;
+    margin: 0.5rem 0 0.5rem 0;
+  }
+  .description {
+    font-size: 0.8rem;
+    margin: 0.8rem 2.2rem;
+  }
+  .summary-title {
+    font-size: 1.2rem;
+  }
+  .result-description {
+    width: 100%;
+    height: 2.2rem;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+  }
+  button {
+    margin-bottom: 20px;
+  }
+}
